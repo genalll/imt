@@ -1,0 +1,152 @@
+.navbar{
+    background:#F97300;
+   }
+   .nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+   }
+   .nav-link{
+    margin-right: 1em !important;
+    color:white !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+   }
+   .nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300 !important;
+   }
+   .navbar-collapse{
+    justify-content: flex-end;
+   }
+
+   
+
+   .header{
+    background-image: url('1.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 100vh !important;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.05);
+   }
+
+   .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    width: 70%;
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 100%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
+
+.overlay:hover{
+    background: rgba(244, 244, 244, 0.15);
+}
+
+
+
+.calc{
+    width: 45vw;
+    height: 65vh;
+    border: 2px solid black;
+    padding: 5vh;
+    
+}
+
+.woch {
+    width: 45vw;
+    height: 65vh;
+    border: 2px solid black;
+    padding: 5vh;
+    
+}
+   
+ .rows{
+    justify-content: center;
+    margin:1vh;
+   
+}  
+
+.histori{
+    width: 100vw;
+    height: 90vh;
+    border: 2px solid black;
+    
+}
+
+.foot{
+    background:#F97300;
+    color: #f4f4f4;
+    cursor: pointer;
+    font-weight: bold !important;
+}
+
+.ftext{
+    color:white !important;
+    justify-content: center;
+}
+
+.histori p{
+    color:#666;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5;
+   }
+
+
+
+
+
+
+
+
+.bodycalc{
+    margin:0 auto;
+    height: 100vh;
+    background-image: url("fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:15vh;
+    opacity: 0.85;
+}
+.bodycalc:hover {
+    opacity: 1.1;
+}
+.white{
+    background-color: whitesmoke;
+    padding: 5vh;
+    border: 3px solid green;
+    border-radius:5px;
+}
+#clickhref{
+    margin-top:10px;
+}
+
+#clickhref:hover{
+    transform: scale(1.1);
+}
+
+#click:hover{
+    transform: scale(1.1);
+}
