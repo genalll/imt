@@ -49,10 +49,11 @@
  color:#F97300 ;
 }
 .description p{
- color:#666;
+ color:whitesmoke;
  font-size: 20px;
  width: 100%;
  line-height: 1.5;
+ background-color: #666;
 }
 .description button{
  border:1px  solid #F97300;
